@@ -8,7 +8,9 @@ permalink: /about/
 
 # Security research with a clear purpose.
 
-Project Lighthouse is a small security research initiative focused on identifying meaningful weaknesses, understanding their real-world impact and helping organisations improve their security posture.
+Project Lighthouse is a security research initiative focused on identifying meaningful weaknesses, understanding their real-world impact and helping organisations improve their security posture.
+
+A central focus is the security impact of AI itself: researching emerging cyber threats from AI systems, testing the capabilities of the latest AI technologies, and turning what we learn into practical help for defenders.
 
 Its work may include security research, application and architecture reviews, analysis of publicly exposed attack surfaces, and responsible vulnerability disclosure.
 

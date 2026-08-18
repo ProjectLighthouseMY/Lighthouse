@@ -16,7 +16,7 @@ Project Lighthouse exists to do three things:
 
 A central focus is the security impact of AI itself: researching emerging cyber threats from AI systems, testing the capabilities of the latest AI technologies, and turning what we learn into practical help for defenders.
 
-The project is deliberately small and evidence-driven. A useful finding should explain what was observed, why it matters, what the realistic impact is, and what can be done about it.
+The project is evidence-driven. A useful finding should explain what was observed, why it matters, what the realistic impact is, and what can be done about it.
 
 Research should also minimise risk. Active testing belongs within an authorised scope, and responsible disclosure should prioritise remediation over publicity.
 
