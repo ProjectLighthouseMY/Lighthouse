@@ -4,8 +4,21 @@ title:
 description: Project Lighthouse conducts focused security research and practical security reviews.
 ---
 <section class="hero-shell">
-  <div class="hero-image" aria-hidden="true"></div>
-  <div class="hero-beacon" aria-hidden="true"><span class="beam beam-left"></span><span class="beam beam-right"></span><span class="lantern-glow"></span></div>
+  <svg class="hero-scene" viewBox="0 0 1600 760" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <defs>
+      <linearGradient id="beam-left-gradient" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d2e1de" stop-opacity="0"/><stop offset=".45" stop-color="#e1ece9" stop-opacity=".11"/><stop offset="1" stop-color="#f2f7f5" stop-opacity=".28"/></linearGradient>
+      <linearGradient id="beam-right-gradient" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#f2f7f5" stop-opacity=".26"/><stop offset=".55" stop-color="#e1ece9" stop-opacity=".1"/><stop offset="1" stop-color="#d2e1de" stop-opacity="0"/></linearGradient>
+      <radialGradient id="lantern-gradient"><stop offset="0" stop-color="#f5f9f7" stop-opacity=".38"/><stop offset=".42" stop-color="#cde0da" stop-opacity=".1"/><stop offset=".72" stop-color="#cde0da" stop-opacity="0"/></radialGradient>
+      <filter id="beam-blur" x="-10%" y="-60%" width="120%" height="220%"><feGaussianBlur stdDeviation="7"/></filter>
+      <filter id="glow-blur" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="4"/></filter>
+    </defs>
+    <image class="hero-photo" href="{{ '/assets/images/lighthouse-hero-clean.png' | relative_url }}" x="0" y="0" width="1600" height="760"/>
+    <g class="svg-beacon">
+      <path class="svg-beam svg-beam-left" d="M 890 198 L 0 145 L 0 267 L 890 214 Z" fill="url(#beam-left-gradient)" filter="url(#beam-blur)"/>
+      <path class="svg-beam svg-beam-right" d="M 890 198 L 1600 145 L 1600 267 L 890 214 Z" fill="url(#beam-right-gradient)" filter="url(#beam-blur)"/>
+      <circle class="svg-lantern-glow" cx="890" cy="206" r="34" fill="url(#lantern-gradient)" filter="url(#glow-blur)"/>
+    </g>
+  </svg>
   <div class="hero-overlay"></div>
   <div class="page-width hero-content">
     <p class="eyebrow light">Security Research</p><h1>Project Lighthouse</h1>
