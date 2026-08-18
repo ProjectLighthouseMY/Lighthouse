@@ -1,0 +1,4 @@
+title: Project Lighthouse
+description: Security research. Practical reviews. Responsible disclosure.
+markdown: kramdown
+permalink: /research/:title/
